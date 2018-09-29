@@ -1,0 +1,27 @@
+{
+  "name": "douban-trailer-immoc",
+  "version": "1.0.0",
+  "description": "Node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuperiorWang/douban-trailer-immoc.git"
+  },
+  "keywords": [
+    "movie",
+    "trailer"
+  ],
+  "author": "SuperWang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SuperiorWang/douban-trailer-immoc/issues"
+  },
+  "homepage": "https://github.com/SuperiorWang/douban-trailer-immoc#readme",
+  "dependencies": {
+    "koa": "^2.5.3"
+  }
+}
