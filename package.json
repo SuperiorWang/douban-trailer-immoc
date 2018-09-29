@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/SuperiorWang/douban-trailer-immoc#readme",
   "dependencies": {
-    "koa": "^2.5.3"
+    "ejs": "^2.6.1",
+    "koa": "^2.5.3",
+    "pug": "^2.0.3"
   }
 }
