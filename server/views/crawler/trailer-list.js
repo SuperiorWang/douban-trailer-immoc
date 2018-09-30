@@ -7,7 +7,7 @@ const sleep = time => new Promise(resolve => {
 })
 
 
-(async ()=> {
+;(async ()=> {
     console.log('start visit the target page');
 
     const browser = await puppeteer.launch({
@@ -56,6 +56,8 @@ const sleep = time => new Promise(resolve => {
     })
 
     browser.close()
-    console.log(result)
+
+    process.send({result})
+    process.exit(0)
     
 })()
